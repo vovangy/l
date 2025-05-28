@@ -1,0 +1,19 @@
+.auth-message {
+  text-align: center;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 100%;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  background: rgba(60, 60, 60, 0.5);
+  border-radius: 8px;
+  width: 80%;
+}
+
+.auth-message p {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0;
+} 

@@ -1,0 +1,144 @@
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(150px);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 100;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .page-container {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+  
+
+  .page-title {
+    text-align: left !important;
+    margin-left: 150px !important;
+    align-self: flex-start !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+  
+  .search-container {
+    margin-left: 150px !important;
+    margin-right: auto !important;
+    justify-content: flex-start !important;
+    max-width: 400px;
+    width: 100% !important;
+  }
+  
+  .content-wrapper {
+    width: 80% !important;
+    padding: 20px !important;
+    color: white !important;
+    min-height: calc(100vh - 300px) !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+    margin-left: 150px !important;
+    margin-right: auto !important;
+    text-align: left !important;
+    box-sizing: border-box !important;
+  }
+  
+  .albums-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+    align-self: flex-start !important;
+  }
+  
+  .item-row {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+  
+  .playlist-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: rgba(40, 40, 40, 0.8);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .playlist-item:hover {
+    background: rgba(60, 60, 60, 0.9);
+    transform: translateX(5px);
+  }
+  
+  .remove-album-button {
+    background: rgba(255, 80, 80, 0.15);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s ease;
+  }
+  
+  .remove-album-button:hover {
+    background: rgba(255, 80, 80, 0.3);
+    opacity: 1;
+  }
+  
+  .error-message {
+    text-align: center;
+    padding: 30px;
+    color: #ff6b6b;
+    background: rgba(40, 40, 40, 0.5);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .no-results {
+    text-align: center;
+    padding: 30px;
+    color: #aaa;
+    background: rgba(40, 40, 40, 0.5);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .page-title {
+      margin-left: 20px !important;
+      font-size: 60px !important;
+    }
+    
+    .search-container {
+      margin-left: 20px !important;
+    }
+    
+    .content-wrapper {
+      margin-left: 20px !important;
+      width: calc(100% - 40px) !important;
+    }
+  }

@@ -1,0 +1,40 @@
+.spot {
+    position: fixed; 
+    background-image: url('../../../public/assets/Ellipse 12.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.55;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .spot-top-left {
+    top: -150px;
+    left: 250px;
+    width: 334px;
+    height: 326px;
+  }
+  
+  .spot-top-right {
+    top: 250px;
+    right: -100px;
+    width: 242px;
+    height: 294px;
+    transform: rotate(180deg);
+  }
+  
+  .spot-bottom-left {
+    top: 350px;
+    left: -200px;
+    width: 600px;
+    height: 550px;
+    transform: rotate(270deg);
+  }
+  
+  .spot-bottom-right {
+    top: 450px;
+    right: -130px;
+    width: 456px;
+    height: 434px;
+  }
+  
