@@ -25,10 +25,10 @@ function Menu({ isOpen }) {
           </div>
         )}
         
-        <Link to="/my-albums" className="menu-item">Альбомы</Link>
+        <Link to="/my-albums" className="menu-item">Мои Альбомы</Link>
         <Link to="/my-music" className="menu-item">Моя музыка</Link>
         <Link to="/playlists" className="menu-item">Мои плейлисты</Link>
-        <div className="menu-item" onClick={handleTop100Click}>Топ-100</div>
+        <div className="menu-item" onClick={handleTop100Click}>Альбомы</div>
         
         {isAuthenticated ? (
           <div className="menu-item logout" onClick={handleLogout}>Выйти</div>

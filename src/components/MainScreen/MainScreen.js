@@ -520,7 +520,7 @@ const MainScreen = ({ menuOpen, toggleMenu, openLogin, children}) => {
       </div>
 
       <h2 className="main-title">
-        {searchQuery ? 'Результаты поиска' : 'Топ-100 альбомов'}
+        {searchQuery ? 'Результаты поиска' : 'Альбомы'}
       </h2>
       
       <button className="menu-button" onClick={(e) => {
